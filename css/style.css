@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", serif;
+}
+
+header {
+    padding-bottom: 50px;
+    background: rgb(4, 84, 9);
+    background: linear-gradient(90deg, rgba(4, 84, 9, 1) 0%, rgba(10, 235, 6, 1) 90%);
+}
+
+.yuel ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.yuel ul li:hover a{
+    color: rgb(255, 255, 0);
+}
+
+.yuel a {
+    color: white;
+}
+
+.head_buttons {
+    display: flex;
+    justify-content: end;
+}
+
+.head_buttons button {
+    margin-left: 10px;
+    width: 150px;
+    background-color: #DAD873;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(9, 196, 6);
+}
+.head_buttons button:hover{
+    background-color: #f8f402;
+    color: red;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.p_t {
+    padding-top: 10px;
+}
+
+.head_buttons .back_butto {
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+}
+
+@media screen and (max-width: 768px) {
+    .yuel {
+        display: none;
+    }
+}
+
+/* Your  Next */
+.m_t {
+    margin-top: 50px;
+}
+
+.left_next {
+    color: white;
+}
+
+.bottom_line {
+    width: 60%;
+    border-bottom: 2px solid white;
+}
+
+.bottom_line h1 {
+    font-size: 40px;
+}
+
+.right_next {
+    margin-top: 40px;
+}
+
+.left_next .three_number {
+    margin-top: 30px;
+}
+
+.right_next img {
+    width: 100%;
+}
+
+.left_button button {
+    width: 150px;
+    background-color: #DAD873;
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(9, 196, 6);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 50px;
+}
+.left_button button:hover{
+    background-color: #f8f402;
+    color: red;
+}
+
+@media screen and (max-width:992px) {
+    .left_next {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom_line {
+        margin: 0 auto;
+    }
+}
+
+
+/* One Mission Background */
+.one_mission_background {
+    padding: 50px 0;
+}
+
+.one_mission h1 {
+    color: #309975;
+}
+
+.one_mission p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(56, 55, 55);
+}
+
+.left_card {
+    width: 90%;
+    background-color: #FCFCF0;
+    padding: 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.left_card_in {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.left_card button {
+    background-color: #DAD873;
+    width: 120px;
+    border: none;
+    height: 40px;
+    color: #000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#left_card_btn:hover{
+    background-color: #000;
+    color: red;
+}
+
+.left_card h3 {
+    color: #DAD873;
+    margin-bottom: 20px;
+}
+
+.left_card ul {
+    list-style: disc;
+    margin-left: 18px;
+}
+
+.left_card ul li {
+    font-size: 14px;
+    color: rgb(63, 62, 62);
+    margin-bottom: 30px;
+}
+
+#left_card_btn {
+    width: 140px;
+    background-color: #F8BF88;
+}
+
+.card_id {
+    width: 70%;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    position: relative;
+    padding: 10px 25px;
+}
+
+.card_id h3 {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: #000;
+}
+
+.card_id span {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+}
+
+#petal2 {
+    background-color: #FFCDC2;
+    color: #000000;
+}
+
+.back {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+@media screen and (max-width:576px) {
+    .left_card_in {
+        margin-left: 0;
+    }
+
+    .card_id {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .left_card {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .card_id {
+        width: 90%;
+    }
+
+    .left_card_in {
+        margin-left: 0;
+    }
+
+}
+
+
+/* Our Online */
+
+.our_online_background {
+    padding: 50px 0 200px 0;
+    background: rgb(4, 84, 9);
+    background: linear-gradient(90deg, rgba(4, 84, 9, 1) 0%, rgba(10, 235, 6, 1) 90%);
+}
+
+.exchange {
+    color: white;
+}
+
+.exchange h1 {
+    font-weight: 400;
+}
+
+.exchange p {
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.exch_butto button:hover{
+    background-color: #f8f402;
+    color: red;
+}
+
+.usd {
+    margin-bottom: 20px;
+    color: white;
+    align-items: center;
+}
+
+.ff {
+    font-size: 14px;
+}
+
+.ft {
+    font-size: 20px;
+}
+
+.usd_box {
+    display: flex;
+    align-items: center;
+}
+
+.usd_box i {
+    font-size: 10px;
+    margin-left: 10px;
+    color: yellow;
+}
+
+.right_exch {
+    position: relative;
+    color: white;
+}
+
+.rub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+}
+
+.spn {
+    display: block;
+    position: absolute;
+    right: 170px;
+}
+
+.sn {
+    display: block;
+    position: absolute;
+    right: 220px;
+    top: 95px;
+}
+
+.eur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 60%;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+}
+
+.exch_butto {
+    position: absolute;
+    right: 140px;
+    top: 200px;
+}
+
+.exch_butto button {
+    height: 40px;
+    background-color: #FFCA63;
+    border: none;
+    padding: 10px 15px;
+    color: green;
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .spn {
+        right: 100px;
+    }
+    .sn {
+        right: 150px;
+    }
+    .exch_butto {
+        right: 65px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .spn {
+        display: none;
+    }
+    .sn {
+        display: none;
+    }
+    
+    .rub{
+        text-align: start;
+        width: 100%;
+    }
+    .hh{
+        display: block;
+        position: absolute;
+        left: 10px;
+    }
+    .spp{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .eur{
+        width: 100%;
+    }
+}
+
+
+/* Global White Background */
+
+.global_white_background{
+    padding: 100px 0;
+}
+
+.global_servise h1{
+    font-weight: 500;
+    color: #575757;
+}
+
+.global_servise p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #767676;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.fff{
+    width: 100%;
+    height: 600px;
+    padding: 20px 20px;
+}
+
+.left_global_in{
+    width: 105%;
+    height: 250px;
+    margin-bottom: 50px;
+    padding: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.left_global_in p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #575757;
+}
+.left_global_in h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.right_global_in{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+    padding: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.right_global_in p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #575757;
+}
+.right_global_in h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.botto{
+    display: none;
+}
+.center_global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center_global_img{
+    width: 100%;
+    height: 50%;
+}
+.center_global_img img{
+    width: 100%;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .right_global{
+        width: 207.3%;
+        margin-top: 20px;
+    }
+    .bbtt{
+        display: block;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .ffff{
+        display: block;
+        height: 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left_global_in{
+        width: 100%;
+    }
+    .botto{
+        display: block;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .botto{
+        display: none;
+    }
+}
+
+/* Last Background */
+
+.last_green_background{
+    padding: 50px 0;
+    background: rgb(4, 84, 9);
+    background: linear-gradient(90deg, rgba(4, 84, 9, 1) 0%, rgba(10, 235, 6, 1) 90%);
+}
+
+.last_left_button{
+    color: white;
+}
+.birlashtirish{
+    margin-top: 20px;
+    width: 100%;
+    gap: 20px;
+}
+.last_left_button input{
+    width: 80%;
+    height: 40px;
+}
+.last_left_button label{
+    position: relative;
+    top: -30px;
+    left: 20px;
+    color: black;
+}
+.last_left_button input:focus {
+    outline: none;
+}
+
+.bbttt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    font-size: 20px;
+    background-color: #DAD873;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom_last{
+    display: block;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .birlashtirish{
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .birlashtirish{
+        gap: 5px;
+    }
+}
+
+.last_right{
+    justify-content: space-between;
+    color: white;
+}
+.left_ul{
+    padding-left: 50px;
+}
+
+.left_ul ul li{
+    line-height: 40px;
+    cursor: pointer;
+}
+.left_ul ul li:hover{
+    color: yellow;
+}
+.right_ul ul li{
+    text-align: start;
+    line-height: 40px;
+    cursor: pointer;
+}
+.right_ul ul li:hover{
+    color: yellow;
+}
+
+@media screen and (max-width:992px) {
+    .left_ul{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .last_right{
+        margin-top: 50px;
+    }
+}
